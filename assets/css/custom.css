@@ -1,0 +1,41 @@
+/* Header container for flex alignment */
+.header-container {
+    display: flex;
+    align-items: center; /* Align logo and navigation vertically */
+    justify-content: space-between; /* Space between logo and links */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Optional: Background color */
+    border-bottom: 1px solid #ccc; /* Optional: Add a separator */
+  }
+  
+  /* Logo styling */
+  .logo img {
+    height: 60px; /* Adjust the logo height */
+    max-width: 100%;
+  }
+  
+  /* Navigation links styling */
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange links in a row */
+    gap: 15px; /* Space between links */
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #333; /* Link text color */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out; /* Hover effect */
+  }
+  
+  .nav-links ul li a:hover {
+    color: #007BFF; /* Hover color */
+  }
+  
