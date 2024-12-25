@@ -1,41 +1,65 @@
-/* Header container for flex alignment */
+/* Header container styles */
 .header-container {
-    display: flex;
-    align-items: center; /* Align logo and navigation vertically */
-    justify-content: space-between; /* Space between logo and links */
-    padding: 10px 20px;
-    background-color: #f8f9fa; /* Optional: Background color */
-    border-bottom: 1px solid #ccc; /* Optional: Add a separator */
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Space between the logo and navigation */
+  padding: 10px 20px;
+  max-width: 1200px; /* Set a maximum width for the header */
+  margin: 0 auto; /* Center the header container on the page */
+}
+
+/* Logo styles */
+.logo img {
+  height: 50px; /* Set the logo height */
+  max-width: 100%; /* Prevent overflow */
+  display: block; /* Remove inline spacing issues */
+}
+
+/* Navigation styles */
+.site-nav ul {
+  display: flex; /* Align links horizontally */
+  list-style: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Add space between links */
+}
+
+.site-nav ul li {
+  display: inline-block;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  color: #333; /* Set link color */
+  font-size: 1rem; /* Set font size */
+  font-weight: bold; /* Bold font */
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.site-nav ul li a:hover {
+  color: #007BFF; /* Change color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* Stack logo and navigation vertically */
+    align-items: center;
+    gap: 10px; /* Add space between items */
   }
-  
-  /* Logo styling */
-  .logo img {
-    height: 60px; /* Adjust the logo height */
-    max-width: 100%;
+
+  .site-nav ul {
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px;
   }
-  
-  /* Navigation links styling */
-  .nav-links ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Arrange links in a row */
-    gap: 15px; /* Space between links */
-  }
-  
-  .nav-links ul li {
-    display: inline-block;
-  }
-  
-  .nav-links ul li a {
-    text-decoration: none;
-    color: #333; /* Link text color */
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: color 0.3s ease-in-out; /* Hover effect */
-  }
-  
-  .nav-links ul li a:hover {
-    color: #007BFF; /* Hover color */
-  }
-  
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Use your selected font and a fallback font */
+}
+
+h1, h2, p, a, ul, li {
+  font-family: 'Roboto', sans-serif; /* Optional: ensure specific elements use the font */
+}
+
