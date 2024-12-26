@@ -64,4 +64,4 @@ title: "Contact"
 
 ## Contact Us
 
-Curious about the science of managing zoo animals, professional development of zoo professional, or monitoring wild animals populations? Let’s connect! Drop us a line at <a href="mailto:gmcf@gmcf-india.org">gmcf@gmcf-india.org</a>.
+Have questions about the science of managing zoo animals, enhancing professional skills, or monitoring wildlife populations? Contact us at <a href='mailto:gmcf@gmcf-india.org'>gmcf@gmcf-india.org</a> to explore how we can help.

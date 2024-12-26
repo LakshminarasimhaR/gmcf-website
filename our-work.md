@@ -80,5 +80,13 @@ At GaiaMitra Collective Foundation, our work is rooted in evidence-based conserv
   </ul>
 </div>
 
+# Publications 
+
+<div class="section-box">
+  
+</div>
+
+
 <p>Explore our projects, partner with us, or reach out to see how we can work together for conservation.</p>
 <p><a href="/contact" class="link-box">Contact us</a><p>
+
